@@ -8,7 +8,7 @@ Advanced Persistent Threats (APTs) pose a significant challenge in cybersecurity
 
 # Workflow 
 
-![Alt text](https://github.com/aladaen/aladaen-apt/blob/main/figures/aladaenqorkflow.png "General Architecture")
+![Alt text](https://github.com/aladaen/aladaen-apt/blob/main/figures/aladaenworkflow.png "General Architecture")
 
 # ADAEN APT-AutoEncoders 
 
