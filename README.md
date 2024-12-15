@@ -3,10 +3,14 @@
 Advanced Persistent Threats (APTs) pose a significant challenge in cybersecurity due to their stealthy and long-term nature. Modern supervised learning methods require extensive labeled data, which is often scarce in real-world cybersecurity environments. In this paper, we propose an innovative approach that leverages AutoEncoders for unsupervised anomaly detection, augmented by active learning to iteratively improve the detection of APT anomalies. By selectively querying an oracle for labels on uncertain or ambiguous samples, we minimize labeling costs while improving detection rates, enabling the model to improve its detection accuracy with minimal data while reducing the need for extensive manual labeling. We provide a detailed formulation of the proposed Attention Adversarial Dual AutoEncoder-based anomaly detection framework and show how the active learning loop iteratively enhances the model. The framework is evaluated on real-world imbalanced provenance trace databases produced by the DARPA Transparent Computing program, where APT-like attacks constitute as little as 0.004\% of the data. The datasets span multiple operating systems, including Android, Linux, BSD, and Windows, and cover two attack scenarios. The results have shown significant improvements in detection rates during active learning, and better performance compared to other existing approaches.
 
 # Architecture 
-![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/archiflagus.png "General Architecture")
+![Alt text](https://github.com/aladaen/aladaen-apt/blob/main/figures/ADALAENCOMPARTMENTS.pdf "General Architecture")
 
 
-# FLAGUS APT-AutoEncoders 
+# Workflow 
+
+![Alt text](https://github.com/aladaen/aladaen-apt/blob/main/figures/Architecture_ALADAEN5.pdf "General Architecture")
+
+# ADAEN APT-AutoEncoders 
 
 Run the script:
 ```shell
